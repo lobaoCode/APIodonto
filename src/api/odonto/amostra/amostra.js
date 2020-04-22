@@ -3,7 +3,10 @@ const mongoose = restful.mongoose
 const Participante = require('../participante/participante')
 
 const amostra = new mongoose.Schema({
-    participante: {Participante},
+    participante: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Participante"
+    },
     respostas: [
         {
             type: String,
