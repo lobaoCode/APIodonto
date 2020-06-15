@@ -1,3 +1,5 @@
+# API - Odonto
+
 ## Setup
 
 OS X & Linux & Windows:
@@ -5,7 +7,7 @@ OS X & Linux & Windows:
 ```sh
 npm i --save
 ```
-# Instituição
+## Instituição
 Universidade Tiradentes
 Project Lab I - 1º Semestre 2020
 Equipe Odonto!
@@ -15,7 +17,7 @@ Equipe Odonto!
 1. Gabriel Lobão
 2. Pedro Dias
 
-# Rotas
+## Rotas
 - GET / POST / PUT / DELETE
   - /participante
   - /amostra
